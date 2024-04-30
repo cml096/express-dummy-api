@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import * as ApiResponse from '../utils/apiResponses';
-import {ApiError, HTTPStatus} from '../types/APIResponses';
+import { ApiError } from '../types/APIResponses';
+import {HTTPStatus} from "../utils/apiResponses";
 
 /**
  * Error handling middleware to capture all thrown errors within the API.
